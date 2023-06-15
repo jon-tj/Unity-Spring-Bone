@@ -1,4 +1,8 @@
-# Unity-Spring-Bone
-Makes bones springy and adds drag, stretch and gravity!
-This is my second attempt, first attempt using rotations instead of vectors was pitiful... Inspired by Unity's spring bone script which can be found at:
+# Unity Spring Bone
+Makes bones springy and adds drag, stretch and gravity! Apply jiggle physics to anything in Unity. Inspired by Unity3d's spring bone script which can be found at:
 https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project/blob/release/legacy/2.0/Assets/UnityChan/Scripts/SpringBone.cs
+
+# Getting Started
+Clone the SpringBone and PhysicsEnvironment scripts, then add the SpringBone script to any object. By default, the target axis of the spring is set to the forward direction at initialization. If you want to add global wind to the springs, give an object the PhysicsEnvironment script and set the global wind direction.
+
+Note that if you only clone the SpringBone script, you need to change the wind calculation in SpringBone to not depend on PhysicsEnvironment.
