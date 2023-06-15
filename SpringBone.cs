@@ -35,10 +35,12 @@ public class SpringBone : MonoBehaviour
     public float elasticity = 0.6f;
     public SphereCollider[] colliders;
 
+    [HideInInspector]
+    public Vector3 target;
+    
     // Private variables
     private Vector3 tip;
     private Vector3 tipVelocity;
-    private Vector3 target;
 
     private float totalTension;
     private float tensionVelocity;
