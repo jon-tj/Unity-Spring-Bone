@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PhysicsEnvironment : MonoBehaviour
 {
-    [Header("Environment")]
+    [Header("Wind")]
     public Vector3 globalWind;
     public float windFrequency;
 
